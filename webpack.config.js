@@ -3,7 +3,7 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 module.exports = withModuleFederationPlugin({
 
 remotes: {
-  'feature': 'https://micro-frontend-angular-guide-git-main-divyanshu21196s-projects.vercel.app/remoteEntry.js'
+    feature: 'https://micro-frontend-angular-guide-git-main-divyanshu21196s-projects.vercel.app/remoteEntry.js',
 },
 
   shared: {
