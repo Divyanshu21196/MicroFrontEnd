@@ -11,7 +11,7 @@ export const routes: Routes = [
     loadChildren: () =>
       loadRemoteModule({
         type: 'module',
-        remoteEntry: 'http://localhost:4300/remoteEntry.js',
+        remoteEntry: 'https://micro-frontend-angular-guide-git-main-divyanshu21196s-projects.vercel.app/remoteEntry.js',
         exposedModule: './Module'
       }).then(m => m.FeatureModule)
   }
